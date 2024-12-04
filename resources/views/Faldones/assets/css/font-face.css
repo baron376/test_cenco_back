@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Arial Light Regular'), url('../fonts/Arial_LightRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Arial Regular'), url('../fonts/Arial_Regular.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Arial Medium'), url('../fonts/Arial_Medium.woff') format('woff');
+}
+    
+@font-face {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Arial Bold'), url('../fonts/Arial_Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Arial Black'), url('../fonts/Arial_Black.woff') format('woff');
+}

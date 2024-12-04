@@ -1,0 +1,95 @@
+<?php return function ($fontDir, $rootDir) {
+return array (
+  'sans-serif' => array(
+    'normal' => $rootDir . '/lib/fonts/Helvetica',
+    'bold' => $rootDir . '/lib/fonts/Helvetica-Bold',
+    'italic' => $rootDir . '/lib/fonts/Helvetica-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Helvetica-BoldOblique',
+  ),
+  'times' => array(
+    'normal' => $rootDir . '/lib/fonts/Times-Roman',
+    'bold' => $rootDir . '/lib/fonts/Times-Bold',
+    'italic' => $rootDir . '/lib/fonts/Times-Italic',
+    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
+  ),
+  'times-roman' => array(
+    'normal' => $rootDir . '/lib/fonts/Times-Roman',
+    'bold' => $rootDir . '/lib/fonts/Times-Bold',
+    'italic' => $rootDir . '/lib/fonts/Times-Italic',
+    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
+  ),
+  'courier' => array(
+    'normal' => $rootDir . '/lib/fonts/Courier',
+    'bold' => $rootDir . '/lib/fonts/Courier-Bold',
+    'italic' => $rootDir . '/lib/fonts/Courier-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Courier-BoldOblique',
+  ),
+  'helvetica' => array(
+    'normal' => $rootDir . '/lib/fonts/Helvetica',
+    'bold' => $rootDir . '/lib/fonts/Helvetica-Bold',
+    'italic' => $rootDir . '/lib/fonts/Helvetica-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Helvetica-BoldOblique',
+  ),
+  'zapfdingbats' => array(
+    'normal' => $rootDir . '/lib/fonts/ZapfDingbats',
+    'bold' => $rootDir . '/lib/fonts/ZapfDingbats',
+    'italic' => $rootDir . '/lib/fonts/ZapfDingbats',
+    'bold_italic' => $rootDir . '/lib/fonts/ZapfDingbats',
+  ),
+  'symbol' => array(
+    'normal' => $rootDir . '/lib/fonts/Symbol',
+    'bold' => $rootDir . '/lib/fonts/Symbol',
+    'italic' => $rootDir . '/lib/fonts/Symbol',
+    'bold_italic' => $rootDir . '/lib/fonts/Symbol',
+  ),
+  'serif' => array(
+    'normal' => $rootDir . '/lib/fonts/Times-Roman',
+    'bold' => $rootDir . '/lib/fonts/Times-Bold',
+    'italic' => $rootDir . '/lib/fonts/Times-Italic',
+    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
+  ),
+  'monospace' => array(
+    'normal' => $rootDir . '/lib/fonts/Courier',
+    'bold' => $rootDir . '/lib/fonts/Courier-Bold',
+    'italic' => $rootDir . '/lib/fonts/Courier-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Courier-BoldOblique',
+  ),
+  'fixed' => array(
+    'normal' => $rootDir . '/lib/fonts/Courier',
+    'bold' => $rootDir . '/lib/fonts/Courier-Bold',
+    'italic' => $rootDir . '/lib/fonts/Courier-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Courier-BoldOblique',
+  ),
+  'dejavu sans' => array(
+    'bold' => $rootDir . '/lib/fonts/DejaVuSans-Bold',
+    'bold_italic' => $rootDir . '/lib/fonts/DejaVuSans-BoldOblique',
+    'italic' => $rootDir . '/lib/fonts/DejaVuSans-Oblique',
+    'normal' => $rootDir . '/lib/fonts/DejaVuSans',
+  ),
+  'dejavu sans mono' => array(
+    'bold' => $rootDir . '/lib/fonts/DejaVuSansMono-Bold',
+    'bold_italic' => $rootDir . '/lib/fonts/DejaVuSansMono-BoldOblique',
+    'italic' => $rootDir . '/lib/fonts/DejaVuSansMono-Oblique',
+    'normal' => $rootDir . '/lib/fonts/DejaVuSansMono',
+  ),
+  'dejavu serif' => array(
+    'bold' => $rootDir . '/lib/fonts/DejaVuSerif-Bold',
+    'bold_italic' => $rootDir . '/lib/fonts/DejaVuSerif-BoldItalic',
+    'italic' => $rootDir . '/lib/fonts/DejaVuSerif-Italic',
+    'normal' => $rootDir . '/lib/fonts/DejaVuSerif',
+  ),
+  'roboto' => array(
+    '100_italic' => $fontDir . '/roboto_100_italic_559ac2b90f004b83f21d8500a4fda7c4',
+    '300_italic' => $fontDir . '/roboto_300_italic_d317fa2237b7962a3fd66adfa8987f1e',
+    'italic' => $fontDir . '/roboto_italic_322eb4a8c28cb60b9c1aea4b47a56aa3',
+    '500_italic' => $fontDir . '/roboto_500_italic_bd56a7ae3eb165c15ffb40cbf80eb5dc',
+    'bold_italic' => $fontDir . '/roboto_bold_italic_f52b3176ccea70da0d52f18e0938a607',
+    '900_italic' => $fontDir . '/roboto_900_italic_cddf88f6c34a9ba52072143e639c8202',
+    '100' => $fontDir . '/roboto_100_9234a3ac26ff1592485d2aabcb2c9d8e',
+    '300' => $fontDir . '/roboto_300_cc4e76f50b66ce9ac2b3d8a19b5f276d',
+    'normal' => $fontDir . '/roboto_normal_e794639d941c5ae548beb5b53f96d8e5',
+    'bold' => $fontDir . '/roboto_bold_9420b318fa9b620e67bbd96e8ff529e0',
+    '900' => $fontDir . '/roboto_900_23e21dd11a29036fdf461b3dbe1796a8',
+  ),
+);
+}; ?>
